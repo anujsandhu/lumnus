@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "alumniconnect-frontend/dist",
+    "public": "lumnus-frontend/dist",
     "ignore": [
       "firebase.json",
       "**/.*",

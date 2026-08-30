@@ -36,7 +36,7 @@ app.use(express.json());
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'AlumniConnect API is running' });
+  res.json({ status: 'ok', message: 'Lumnus API is running' });
 });
 
 // Public stats — no auth required

@@ -1,7 +1,7 @@
 {
-  "name": "alumniconnect-backend",
+  "name": "lumnus-backend",
   "version": "1.0.0",
-  "description": "Backend API for AlumniConnect - Alumni Networking & Mentorship Platform",
+  "description": "Backend API for Lumnus - Alumni Networking & Mentorship Platform",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {

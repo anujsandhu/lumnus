@@ -1,14 +1,14 @@
 {
-  "name": "alumni-connect-workspace",
+  "name": "lumnus-workspace",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "alumniconnect-frontend",
-    "alumniconnect-backend"
+    "lumnus-frontend",
+    "lumnus-backend"
   ],
   "scripts": {
-    "dev:frontend": "npm run dev -w alumniconnect-frontend",
-    "dev:backend": "npm run dev -w alumniconnect-backend",
+    "dev:frontend": "npm run dev -w lumnus-frontend",
+    "dev:backend": "npm run dev -w lumnus-backend",
     "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\""
   },
   "devDependencies": {

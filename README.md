@@ -1,4 +1,4 @@
-# 🎓 AlumniConnect — Alumni & Student Networking Platform
+# 🎓 Lumnus — Alumni & Student Networking Platform
 
 [![React](https://img.shields.io/badge/Frontend-React%2019-blue?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Build%20Tool-Vite%208-646CFF?logo=vite)](https://vitejs.dev/)
@@ -7,7 +7,7 @@
 [![Firebase](https://img.shields.io/badge/Auth%2FStorage-Firebase-FFCA28?logo=firebase)](https://firebase.google.com/)
 [![Cloudinary](https://img.shields.io/badge/Media-Cloudinary-3448C5?logo=cloudinary)](https://cloudinary.com/)
 
-**AlumniConnect** is a full-stack web platform designed to bridge the gap between college alumni, current students, and faculty. It facilitates mentorship programs, alumni directory discovery, career opportunity listings, campus & virtual event RSVPs, and professional connection building.
+**Lumnus** is a full-stack web platform designed to bridge the gap between college alumni, current students, and faculty. It facilitates mentorship programs, alumni directory discovery, career opportunity listings, campus & virtual event RSVPs, and professional connection building.
 
 ---
 
@@ -44,11 +44,11 @@
 The project is structured as an **npm workspace monorepo**, managing both the frontend React client and Node.js Express backend from a single repository.
 
 ```
-alumni-connect-workspace/
+lumnus-workspace/
 ├── package.json                   # Monorepo root configuration & scripts
 ├── README.md                      # Workspace documentation
 │
-├── alumniconnect-backend/          # Node.js + Express REST API
+├── lumnus-backend/                # Node.js + Express REST API
 │   ├── config/                    # MongoDB connection configuration (db.js)
 │   ├── controllers/               # Request handlers (auth, user, mentorship, events, jobs)
 │   ├── middleware/                # JWT verification & role authorization middleware
@@ -63,7 +63,7 @@ alumni-connect-workspace/
 │   ├── .env.example               # Backend environment variable template
 │   └── package.json
 │
-└── alumniconnect-frontend/         # Vite + React 19 Single Page Application
+└── lumnus-frontend/               # Vite + React 19 Single Page Application
     ├── src/
     │   ├── api/                   # Axios client & API endpoints config
     │   ├── components/            # Reusable UI components (Navbar, Footer, Modals)
